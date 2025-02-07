@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+      <legend>
+        <h2>We appreciate your sharing!</h2>
+      </legend>
+
+      <span>Full Name:</span> <input type="text" placeholder="fullname" required>
+      <br>
+      <br>
+      <span>Gender: </span>
+      <input type="radio" id="male" value="male" name="gender" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" value="female" name="gender" required>
+      <label for="female">Female</label>
+      <br>
+      <br>
+      <label for="email">Email:</label><input type="email" placeholder="example@gmail.com" name="email" required>
+      <br>
+      <br>
+      <label for="password">Password:</label><input type="password" placeholder="******" name="password" required>
+      <br>
+      <br>
+      <label for="dob">Birthday:</label><input type="date" name="dob" required>
+      <br>
+      <br>
+      <label for="profile">Profile:</label><input type="file" name="profile">
+      <br>
+      <br>
+      <label for="tel">Local's Contact:</label>&emsp; <sup>+855</sup> &emsp;<input type="tel" name="tel"
+        placeholder="12 345 678" pattern="[0-9]{2} [0-9]{3} [0-9]{3}" required>&emsp;
+      <small><mark>Format: 12 345 678</mark></small>
+      <br>
+      <br>
+      <label for="place">Amoong these places, how many have you visited?</label>
+      <br>
+      <br>
+      <input type="checkbox" name="place" value="koh_touch" id="koh_touch"> <label for="koh_touch">Koh
+        Touch</label>&emsp;
+      <input type="checkbox" name="place" value="long_set_beach" id="long_set_beach"> <label for="long_set_beach">Long
+        Set Beach</label>&emsp;
+      <input type="checkbox" name="place" value="sok_sen_beach" id="sok_sen_beach"> <label for="sok_sen_beach">Sok Sen
+        Beach</label>&emsp;
+      <input type="checkbox" name="place" value="prek_svay" id="prek_svay"> <label for="prek_svay">Prek
+        Svay</label>&emsp;
+      <br>
+      <br>
+      <label for="rating">How much do you satisfy <b>Koh Rong</b>?</label>
+      <br>
+      <br>
+      <input type="radio" id="bad" value="bad" name="rating">
+      <label for="bad">Too Bad Experience</label>&emsp;
+      <meter value="20" id="bad" min="0" max="100" low="33" high="66" optimum="80"></meter><br><br>
+      <input type="radio" id="avg" value="avg" name="rating">
+      <label for="avg">Average</label> &emsp;<meter value="50" id="avg" min="0" max="100" low="33" high="66"
+        optimum="80"></meter><br><br>
+      <input type="radio" id="good" value="good" name="rating">
+      <label for="good">Very Satisfied</label> &emsp;<meter value="80" id="bad" min="0" max="100" low="33" high="66"
+        optimum="80"></meter><br><br>
+      <textarea name="" id="" placeholder="Please give us your overall feedback" rows="20" cols="80"></textarea>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
